@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+	<link rel="stylesheet" href="formulario.css">
+	<meta name="viewport" content="width=device-width , inital-scale=1" >
+	<title>Contacto</title>
+</head>
+
+<body>
+
+	<header>
+		<div id="nombre">
+		  <img id="logo" src="img/Logo.jpg">
+		</div>
+		<nav id="botonera_principal">
+			<ul>
+			  <li><a href="index.html">Inicio</a></li>
+			  <li><a href="#">Teoría</a></li>
+			  <li><a href="#">Prácticas</a></li>
+			  <li><a href="#">Ejercicios Resueltos</a></li>
+			  <li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		  </nav>
+	
+	  </header>
+	
+
+	<section id="Contacto">
+	
+	  <p id="frase">Si tenés alguna consulta escribime!</p>
+
+	<div class="formulario">
+		<form action="enviar.php" method="post" >
+			<input autofocus type="text" placeholder="Nombre" name="nombre1" maxlength="20" required class="caja1" />
+       	 	<input type="text" placeholder="Apellido" name="apellido" maxlength="30" required class="caja1">
+			<input type="email" placeholder="Ejemplo@correo.com" name="correo" required class="caja1">
+			<input type="text" placeholder="Asunto" name="asunto" class="caja1">
+			<textarea name="mensaje" placeholder="Describe brevemente tu consulta aquí" maxlength="300" cols="30" rows="10" class="caja2"></textarea>
+			<br>
+			<button class="enviar">Enviar</button>
+		</form>
+
+	</div>
+
+<!---<ul class="fa-ul">
+  <li><i class="fa-li fa fa-check-square"></i>los iconos</li>
+  <li><i class="fa-li fa fa-check-square"></i>pueden usarse</li>
+  <li><i class="fa-li fa fa-spinner fa-spin"></i>como bullets</li>
+  <li><i class="fa-li fa fa-square"></i>en listas</li>
+</ul>--->
+	<div class="mapa">
+		<p class="frase2">Departamento de Matemática de la UNLP</p>
+		<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13087.96058379252!2d-57.95347833022458!3d-34.9066968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e640ad6b54a5%3A0x7c805a2c46e50eab!2sFacultad%20de%20Ciencias%20Exactas!5e0!3m2!1ses-419!2sar!4v1598989226627!5m2!1ses-419!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+</section>
+		
+</body>
+</html>

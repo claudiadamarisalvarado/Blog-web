@@ -54,8 +54,17 @@ section#EJ{
 .tema{
     font-family: Tw Cen MT;
     font-size: 1.8em;
-	margin-left: 1.5em;
 	padding-top: 1em;
+	background: #424242;
+	text-align: center;
+	border: 3px solid white;
+	border-radius: 6px;
+
+}
+
+.padding-titulo{
+	padding-top: 20px;
+	padding-bottom: 18px;
 }
 
 .contenedor{
@@ -116,15 +125,6 @@ section#EJ{
 }
 
 	
-
-
-
-
-
-
-
-
-
 
 
 footer{
@@ -193,4 +193,23 @@ div ul li{
 
 div ul li a{
 	padding: 5px;/*el alto y el ancho de cada boton respectivamente*/
+}
+
+/*Pseudoclases, con los dos puntos se llama a una pseudoclase */
+
+/* no visitado */
+a:link{
+text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+/* posiciono el mouse*/
+a:hover{
+text-decoration: none;
 }

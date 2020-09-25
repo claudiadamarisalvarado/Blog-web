@@ -272,6 +272,24 @@ div ul li a{
 	padding: 5px;/*el alto y el ancho de cada boton respectivamente*/
 }
 
+a:link{
+	text-decoration: none;
+	}
+	a:visited{
+		text-decoration: none;
+	}
+	
+	a:active {
+		text-decoration: none;
+	}
+	
+	/* posiciono el mouse*/
+	a:hover{
+	text-decoration: none;
+	}
+
+
+
 /*Tablet*/
 
 @media all and (min-width: 600px) and (max-width: 1023px){

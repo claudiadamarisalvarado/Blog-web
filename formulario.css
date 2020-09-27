@@ -62,52 +62,6 @@ section#Contacto{
 }
 
 
-
-.formulario{
-	float: left;
-	width: 600px;
-	height: auto;
-	margin: auto;
-	color:#999;
-}
-
-.enviar{
-	margin-left: 20px;
-}
-
-.caja1{
-	width: 200px;
-	height: 30px;
-	margin: 20px 20px;
-	padding: 10px;
-	font-size: 14px;
-}
-
-
-.caja2{
-	width: 470px;
-	height: 100px;
-	margin: 20px 20px;
-	padding: 10px;
-	font-size: 14px;
-}
-
-
-
-.mapa{
-    margin-right: 30px;
-    float: right;
-    width: 360px;
-    height: auto;
-}
-
-.frase2{
-	width: 380px;
-	height: 20px;
-	font-size: 20px;
-	text-align: center;
-	font-family: Tw Cen MT;
-}
 #map{
 	width: 380px;
 	height: 300px;
@@ -133,50 +87,22 @@ a:link{
 	text-decoration: none;
 	}
 
-@media all and (min-width: 600px) and (max-width: 1023px){
-	
-	section#Contacto{
-		width: 580px;
-		height: auto;
-	}
-	
-	#frase{
-		width: 580px;
-		height: 30px;
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-		font-family: Tw Cen MT;
-		font-size: 28px;
-		padding: 20px;
-	}
-	
-	
-	.formulario{
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-		width: 580px;
-		height: auto;
-		margin: auto;
-	}
+ @media all and (min-width: 600px) and (max-width: 1023px){
 
-	
-	
-	.mapa{
+	#nombre{
+		width: 580px;
+		height: 70px;
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
-		width: 360px;
-		height: 340px;	
 	}
-
-	.frase2{
-		width: 360px;
-		height: 20px;
-		font-size: 20px;
-		text-align: center;
-		font-family: Tw Cen MT;
+	
+	#logo{
+		width: 580px;
+		height: 70px;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	#map{
@@ -185,72 +111,25 @@ a:link{
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
-		
 	}
 }
 
-/*Celulares*/
 
 @media all and (max-width: 599px){
-	
-	
-	section#Contacto{
-		width: 90%;
-		height: auto;
-	}
-	
-	#frase{
+
+	#nombre{
 		width: 100%;
 		height: auto;
 		float: none;
-		margin-left: auto;
-		margin-right: auto;
-		font-family: Tw Cen MT;
-		font-size: 15px;
-		padding: 20px;
-		text-align: center;
-	}
-	
-	
-	.formulario{
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-		height: auto;
-		margin: auto;
+		box-sizing: border-box;
 	}
 
-	.caja1{
-		width: 60%;
+	#logo{
+		width: 100%;
 		height: auto;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	
-	
-	.caja2{
-		width: 90%;
-		height: auto;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	
-	
-	.mapa{
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
-		width: 90%;
-		height: auto;	
-	}
-
-	.frase2{
-		width: 100%;
-		height: auto;
-		font-size: 18px;
-		text-align: center;
-		font-family: Tw Cen MT;
 	}
 	
 	#map{

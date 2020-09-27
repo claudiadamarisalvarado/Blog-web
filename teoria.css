@@ -1,0 +1,169 @@
+#color{
+    background-color: #bbcccc;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menu-section{
+	margin-bottom: 1em;
+    border-bottom: 1px solid hsl(0, 0%); 
+
+}
+
+.menu ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+    background: black;
+
+}
+.menu li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+    padding: .6em 1em;
+    
+
+}
+
+.menu li a:hover{
+	background: hsl(0 , 0% , 25%);
+}
+
+
+.botonera_principal ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.botonera_principal li{
+	flex: 1 0 auto;
+	text-align: center; 
+}
+
+.botonera_principal ul li a{
+    font-family: Tw Cen MT;
+    font-size: 1.5em;
+
+}
+
+.lista{
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #000000;
+}
+
+
+#links{
+    width: 300px;
+	height: 10px;
+	font-family: Arial;
+    font-size: 15px;
+    margin-top: 2em;
+
+}
+
+#mate{
+	font-family: Arial;
+	font-size: 15px;
+	float: left;
+
+}
+
+#classroom{
+	font-family: Arial;
+	font-size: 15px;
+	float: left;
+
+}
+
+#redes{
+	background-color: black;
+	padding: 0px;
+	float: right;
+}
+
+
+
+div ul{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center; /* saca los puntitos*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+div ul li{
+    flex: 1 0 auto;
+	text-align: center; 
+	display: inline-block; /* lo muestra uno al lado del otro */
+}
+
+div ul li a{
+	padding: 5px;/*el alto y el ancho de cada boton respectivamente*/
+}
+
+a:link{
+	text-decoration: none;
+	}
+	a:visited{
+		text-decoration: none;
+	}
+	
+	a:active {
+		text-decoration: none;
+	}
+	
+	/* posiciono el mouse*/
+	a:hover{
+	text-decoration: none;
+    }
+    
+
+    @media all and (min-width: 600px) and (max-width: 1023px){
+
+        #nombre{
+            width: 580px;
+            height: 70px;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #logo{
+            width: 580px;
+            height: 70px;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    @media all and (max-width: 599px){
+
+        #nombre{
+            width: 100%;
+            height: auto;
+            float: none;
+            box-sizing: border-box;
+        }
+    
+        #logo{
+            width: 100%;
+            height: auto;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+    }

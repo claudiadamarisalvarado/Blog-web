@@ -20,6 +20,65 @@ header{
 	float: left;
 }
 
+.img1:hover{
+	transform: scale(1) rotate(360deg);
+	transition-duration: 3s;
+	opacity: 0.5;
+}
+
+.img2:hover{
+	position: relative;
+	left: 30px;
+	width: 200px;
+	height: 100px;
+	padding: 6px;
+	animation-name: animacion1;
+	-moz-animation-name: animacion1;
+	-ms-animation-name: animation1;
+	animation-duration: 4s;
+	-moz-animation-duration: 4s;
+	-ms-animation-duration: 4s;
+	opacity: 0.7;
+}
+
+@keyframes animacion1{
+	0% {
+		left: 30px;
+	}
+	50% {
+		left: 500px;
+	}
+	100% {
+		left: 30px;
+	}
+}
+
+.img3:hover{
+	position: relative;
+	right: 30px;
+	width: 200px;
+	height: 100px;
+	padding: 6px;
+	animation-name: animacion2;
+	-moz-animation-name: animacion2;
+	-ms-animation-name: animation2;
+	animation-duration: 4s;
+	-moz-animation-duration: 4s;
+	-ms-animation-duration: 4s;
+	opacity: 0.7;
+}
+
+@keyframes animacion2{
+	0% {
+		right: 30px;
+	}
+	50% {
+		right: 500px;
+	}
+	100% {
+		right: 30px;
+	}
+}
 
 .menu-section{
 	margin-bottom: 1em;
@@ -661,5 +720,5 @@ a:link{
 		padding: 5px;/*el alto y el ancho de cada boton respectivamente*/
 	}
 	
-}
+} 
 
